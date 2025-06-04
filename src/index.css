@@ -1,3 +1,110 @@
-.container{
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+  text-decoration: none;
+}
+/* header */
+header {
+  background: url(./assets/img/1-section.png);
+  width: 1400px;
+  height: 986px;
+  margin: 0 auto;
+}
+.container {
+  width: 1400px;
+}
+.content {
+  display: flex;
+  height: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.logo-text {
+  display: flex;
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+}
+.header-content_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  align-items: center;
+  padding-top: 10px; 
+  width: 800px;
+}
+.header-content_links {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+ 
+}
+.header-content_links:hover{
     
+    color: chocolate;
+    border: 2px solid chocolate;
+    border-radius: 10px;
+    transition: 0.4s;
+    padding-inline:10px;
+    padding-block:6px;
+}
+
+.diolog {
+  width: 1300px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right: 100px;
+  gap: 30px;
+}
+.diolog-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 90px;
+  color: white;
+}
+.diolog-text {
+  font-size: 27px;
+  font-weight: 600;
+  line-height: 39px;
+  color: white;
+}
+.header-btn_btn {
+  height: 486px;
+}
+.header-btn {
+  padding-inline: 45px;
+  padding-block: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  color: chocolate;
+  background: none;
+  border: 5px solid chocolate;
+  border-radius: 16px;
+}
+.header-btn:hover {
+  background-color: chocolate;
+  color: white;
+  transition: 0.3s;
+  padding-inline: 50px;
+  padding-block: 30px;
+  font-size: 36px;
+}
+
+.btn-a {
+  display: flex;
+  justify-content: center;
+  align-content: end;
+  padding-top: 100px;
 }

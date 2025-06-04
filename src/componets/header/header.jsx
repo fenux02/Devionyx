@@ -32,7 +32,10 @@ function Header() {
                         maqsad qilganman. Agar bu matnni boshqa tilga tarjima qilish yoki blog sahifangizga moslab qisqaroq versiyasi kerak bo‘lsa,
                         bemalol ayting!</p>
                 </div>
-                <a href="#!" className="btn-a"><button  className="header-btn" type="button">A'zo Bo'lish</button></a>
+                <div className="header-btn_btn">
+                     <a href="#!" className="btn-a"><button  className="header-btn" type="button">A'zo Bo'lish</button></a>
+                </div>
+               
             </div>
         </header>
     )
