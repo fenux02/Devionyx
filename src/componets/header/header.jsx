@@ -1,8 +1,6 @@
-import Wlapper from "../../assets/img/1-section.png"
+
 import Logo from "../../assets/img/logo1.png"
-import Telegram from "../../assets/img/tg-icon.png"
-import GitHub from "../../assets/img/GitHub.png"
-import Istagram from "../../assets/img/ista-icon.png"
+
 import { navData } from "../data"
 
 function Header() {
