@@ -4,6 +4,7 @@
   box-sizing: none;
   text-decoration: none;
 }
+
 /* header */
 header {
   background: url(./assets/img/1-section.png);
@@ -11,9 +12,12 @@ header {
   height: 986px;
   margin: 0 auto;
 }
+
 .container {
   width: 1400px;
+  margin: 0 auto;
 }
+
 .content {
   display: flex;
   height: 120px;
@@ -22,40 +26,43 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
 .content-logo {
   display: flex;
   align-items: center;
   gap: 15px;
 }
+
 .logo-text {
   display: flex;
   font-size: 45px;
   font-weight: 700;
   color: white;
 }
+
 .header-content_link {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
   align-items: center;
-  padding-top: 10px; 
+  padding-top: 10px;
   width: 800px;
 }
+
 .header-content_links {
   color: white;
   font-weight: 700;
   font-size: 35px;
- 
 }
-.header-content_links:hover{
-    
-    color: chocolate;
-    border: 2px solid chocolate;
-    border-radius: 10px;
-    transition: 0.4s;
-    padding-inline:10px;
-    padding-block:6px;
+
+.header-content_links:hover {
+  color: chocolate;
+  border: 2px solid chocolate;
+  border-radius: 10px;
+  transition: 0.4s;
+  padding-inline: 10px;
+  padding-block: 6px;
 }
 
 .diolog {
@@ -68,21 +75,25 @@ header {
   padding-right: 100px;
   gap: 30px;
 }
+
 .diolog-title {
   font-size: 60px;
   font-weight: 700;
   line-height: 90px;
   color: white;
 }
+
 .diolog-text {
   font-size: 27px;
   font-weight: 600;
   line-height: 39px;
   color: white;
 }
+
 .header-btn_btn {
   height: 486px;
 }
+
 .header-btn {
   padding-inline: 45px;
   padding-block: 25px;
@@ -93,6 +104,7 @@ header {
   border: 5px solid chocolate;
   border-radius: 16px;
 }
+
 .header-btn:hover {
   background-color: chocolate;
   color: white;
@@ -107,4 +119,254 @@ header {
   justify-content: center;
   align-content: end;
   padding-top: 100px;
+}
+
+/* Body */
+/* 1-section Achievements */
+.achievements {
+  background-color: rgb(55, 54, 54);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1400px;
+  height: 1370px;
+  margin-inline: 16px;
+  padding-block: 75px;
+}
+
+.courser-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 1350px;
+  height: 572px;
+  background-color: rgb(81, 80, 80);
+  padding-inline: 10px;
+  gap: 20px;
+}
+
+.courser-info {
+  width: 537px;
+  height: 510px;
+}
+
+.courser-info_text {
+  display: flex;
+  align-items: start;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 10%;
+  color: white;
+  padding-top: 20px;
+}
+
+.design-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 1350px;
+  height: 572px;
+
+  background-color: rgb(81, 80, 80);
+  padding-inline: 10px;
+  gap: 20px;
+}
+
+.courder-info {
+  width: 537px;
+  height: 510px;
+}
+
+.courser-info_text {
+  display: flex;
+  align-items: start;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: 10%;
+  color: white;
+  padding-top: 20px;
+}
+
+.shop-info {
+  background: url(./assets/img/2-section.png);
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  width: 1400px;
+  height: 897px;
+}
+
+.shop-info_title {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 3%;
+  width: 1153px;
+  height: 139px;
+  padding-inline: 20px;
+  padding-block: 30px;
+}
+
+.shop-info_alls {
+  display: flex;
+  margin-left: 40%;
+}
+
+.shop-spam {
+  width: 8px;
+  height: 400px;
+  background-color: chocolate;
+  margin-inline: 10px;
+}
+
+.shop-info_alls-text {
+  display: flex;
+  justify-content: end;
+  width: 992px;
+  height: 386px;
+  align-items: center;
+}
+
+.shop-info_alls-texts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 5%;
+  color: white;
+}
+
+.footer {
+  width: 1400px;
+  height: 990px;
+  background-color: rgb(55, 54, 54);
+  padding-block: 30px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-card {
+  width: 1290px;
+  height: 414px;
+  background-color: rgb(77, 77, 77);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 10px;
+  gap: 20px;
+}
+
+.footer-card_img {
+  width: 645px;
+  height: 382px;
+  border-radius: 10px;
+}
+.footer-card_title {
+  width: 559px;
+  height: 225px;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 3%;
+  color: white;
+  padding-bottom:120px;
+}
+.footer-titile_text{
+  padding-block:50px;
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 3%;
+width: 1265px;
+height: 99px;
+color: white;
+}
+.footer-btn{
+  width: 1290px;
+  height: 290px;  
+  display: flex;
+  flex-direction: column ;
+  gap: 16px;
+
+}
+.Telegram-btn{
+  width: 1292px;
+height: 82px;
+border-radius: 15px ;
+background-color: rgb(0, 179, 255);;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+font-size:40px;
+font-weight: 600;
+line-height:58px;
+border: none;
+}
+.Telegram-btn:hover{
+  width: 1300px;
+  height: 90px;
+  font-size: 45px;
+  transition: 0.4s;
+}
+.GitHub-btn{
+  width: 1292px;
+  height: 82px;
+  border-radius: 15px ;
+  background-color: rgb(6, 6, 6);;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size:40PX;
+  font-weight: 700;
+  line-height:59px;
+border: none;
+}
+.GitHub-btn:hover{
+  width: 1300px;
+  height: 90px;
+  font-size: 45px;
+  transition: 0.4s;
+}
+.Istagram-btn{
+  width: 1292px;
+  height: 82px;
+  border-radius: 15px ;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;  
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  border: none;
+}
+.Istagram-btn:hover{
+  width: 1300px;
+  height: 90px;
+  font-size: 45px;
+  transition: 0.4s;
 }

@@ -33,7 +33,7 @@ function Header() {
                         bemalol ayting!</p>
                 </div>
                 <div className="header-btn_btn">
-                     <a href="#!" className="btn-a"><button  className="header-btn" type="button">A'zo Bo'lish</button></a>
+                     <a href="https://t.me/Devionyx" className="btn-a"><button  className="header-btn" type="button">A'zo Bo'lish</button></a>
                 </div>
                
             </div>
